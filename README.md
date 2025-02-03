@@ -4,7 +4,7 @@ This repository contains the implementation of an NLP model that classifies emot
 
 ## Project Repository
 
-Visit the [GitHub repository](https://github.com/shahabaalam/NLP_Emotion_Classifier.git) to access all files and detailed instructions on setting up and running the project.
+Visit the [GitHub repository](https://github.com/shahabaalam/Emotion_Classifier_NLP.git) to access all files and detailed instructions on setting up and running the project.
 
 ## Project Structure
 
@@ -12,14 +12,19 @@ Visit the [GitHub repository](https://github.com/shahabaalam/NLP_Emotion_Classif
 - `NLP_Emotion_Classifier_DistilBERT.pdf`: A PDF version of the Jupyter notebook.
 - `app.py`: Streamlit application for deploying the model as a web service.
 - `requirements.txt`: Contains all the necessary Python packages for the project.
-- `emotion-detection-model/`: Directory containing the trained DistilBERT model and tokenizer files needed to run the Streamlit application.
-  - `config.json`: Configuration file for the model.
-  - `model.safetensors`: The trained model file.
-  - `special_tokens_map.json`: Special tokens for the tokenizer.
-  - `tokenizer_config.json`: Configuration for the tokenizer.
-  - `tokenizer.json`: Tokenizer file.
-  - `training_args.bin`: Training arguments used during model training.
-  - `vocab.txt`: Vocabulary file for the tokenizer.
+- `emotion-detection-model/`: Directory containing the trained DistilBERT model and tokenizer files needed to run the Streamlit
+
+### Required Model and Tokenizer Files
+
+After running the Jupyter notebook, ensure to move the following files into the `emotion-detection-model/` directory:
+
+- `config.json`: Configuration file for the model.
+- `model.safetensors`: The trained model file.
+- `special_tokens_map.json`: Special tokens for the tokenizer.
+- `tokenizer_config.json`: Configuration for the tokenizer.
+- `tokenizer.json`: Tokenizer file.
+- `training_args.bin`: Training arguments used during model training.
+- `vocab.txt`: Vocabulary file for the tokenizer.
 
 ## Installation
 
